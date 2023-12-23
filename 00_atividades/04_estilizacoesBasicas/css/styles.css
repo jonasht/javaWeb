@@ -2,6 +2,9 @@ body {
     background-color: black;
     color: green;
 }
+hr {
+    color: rgba(0, 128, 0, 0.547);
+}
 .p1 {
     text-align: right;
 }
