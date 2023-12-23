@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    color: green;
+}
+.p1 {
+    text-align: right;
+}
+.p2 {
+    color: pink;
+
+}
+.p3 {
+    text-align: center;
+    color: red;
+}
+
+p {
+    text-align: center;
+}
+.p4 {
+    
+    color: blue;
+}
+
+.p5 {
+    color: yellow;
+}
+
