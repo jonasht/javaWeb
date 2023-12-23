@@ -6,23 +6,28 @@ body {
     text-align: right;
 }
 .p2 {
+    background-color: yellow;
     color: pink;
 
 }
 .p3 {
-    text-align: center;
+    background-color: pink;
     color: red;
 }
 
 p {
+    margin: 0;
+    padding: 0;
     text-align: center;
 }
 .p4 {
+    background-color: red;
     
     color: blue;
 }
 
 .p5 {
+    background-color: blue;
     color: yellow;
 }
 
