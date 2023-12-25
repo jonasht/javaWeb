@@ -1,0 +1,76 @@
+body {
+    background-color: black;
+    color: green;
+
+}
+hr {
+    color: green;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+    display: inline-block;
+}
+
+select {
+    width: 80%;
+    text-align: center;
+    padding: 12px 20px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: 1px solid white;
+    margin-left: -15px;
+}
+
+.btLimpar {
+    background-color: #f44336;
+    border: 1px solid #f44336;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    width: 100%;
+}
+.btLimpar:hover {
+    background-color: #f8594d;
+
+
+}
+
+.btEnviar {
+    background-color: #04AA6D;
+    border: 1px solid #04AA6D;
+    color: white;
+    padding: 12px 20px;
+
+    border-radius: 8px;
+    width: 100%;
+}
+.btEnviar:hover {
+    background-color: #24b07d;
+
+}
+label{
+    font-size: 16px;
+}
+.lbSelect {
+    text-align: end;
+    background-color: rgba(18, 17, 17, 0.57);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding: 11px 20px;
+    margin-right: 0;
+}
+button {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+
