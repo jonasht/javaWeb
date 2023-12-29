@@ -20,9 +20,8 @@ body {
 /* estilo do cabeçalho */
 
 header {
-    padding: 40px 4%;#00FF08
+    padding: 40px 4%; 
 }
-
 header > .interface {
     display: flex;
     align-items: center;
@@ -43,6 +42,7 @@ header a:hover{
 
 header nav ul{
     list-style-type: none;
+    
 }
 
 header nav ul li {
@@ -65,4 +65,195 @@ header .btContato button{
 header .btContato button:hover{
     box-shadow: 0px 0px 8px #00ff08c3 ;
 
+}
+
+/* main  */
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 200px;
+}
+.divLeft {
+    display: inline-block;
+    
+    color: #00FF08;
+}
+
+.divRight {
+
+    background-color: #00FF08;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0;
+    text-align: center;
+}
+.divRight img {
+    margin-top: 20px;
+}
+
+/* footer */
+footer {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px; /* Adiciona espaço acima do footer */
+    margin-bottom: 50px; /* Adiciona espaço abaixo do footer */
+  }
+  
+/* p1 */
+
+.p1 {
+    overflow: hidden;
+}
+.p1 .pLeft {
+    float: left;
+    background-color: whitesmoke;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+    width: 100px;
+    height: 100px;
+}
+
+.p1 .pRight {
+    float: right;
+    background-color: rgb(24, 24, 24);
+
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+    width: 100px;
+    height: 100px;
+
+    text-align: center;
+}
+.p1 .pLeft img{
+    width: 100px;
+}
+
+/* p2 */
+
+.p2 {
+    overflow: hidden;
+}
+.p2 .pLeft {
+    float: left;
+    background-color: whitesmoke;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+    width: 100px;
+    height: 100px;
+}
+
+.p2 .pRight {
+    float: right;
+    background-color: rgb(24, 24, 24);
+
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+    width: 100px;
+    height: 100px;
+
+    text-align: center;
+}
+.p2 .pLeft img{
+    width: 100px;
+}
+
+/* p3 */
+
+.p3 {
+    overflow: hidden;
+}
+.p3 .pLeft {
+    float: left;
+    background-color: whitesmoke;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+    width: 100px;
+    height: 100px;
+}
+
+.p3 .pRight {
+    float: right;
+    background-color: rgb(24, 24, 24);
+
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+    width: 100px;
+    height: 100px;
+
+    text-align: center;
+}
+.p3 .pLeft img{
+    width: 100px;
+}
+
+/* p4 */
+
+.p4 {
+    overflow: hidden;
+}
+.p4 .pLeft {
+    float: left;
+    background-color: whitesmoke;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+    width: 100px;
+    height: 100px;
+}
+
+.p4 .pRight {
+    float: right;
+    background-color: rgb(24, 24, 24);
+
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+    width: 100px;
+    height: 100px;
+
+    text-align: center;
+}
+.p4 .pLeft img{
+    width: 100px;
+}
+
+
+/* p5 */
+
+.p5 {
+    overflow: hidden;
+}
+.p5 .pLeft {
+    float: left;
+    background-color: whitesmoke;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+    width: 100px;
+    height: 100px;
+}
+
+.p5 .pRight {
+    float: right;
+    background-color: rgb(24, 24, 24);
+
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+    width: 100px;
+    height: 100px;
+
+    text-align: center;
+}
+.p5 .pLeft img{
+    width: 100px;
 }
