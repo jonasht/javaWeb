@@ -20,6 +20,10 @@ p{
     color: green;
     font-weight: bold;
     margin-bottom: 55px;
+    cursor: default;
+}
+p:focus{
+    outline: none;
 }
 .bt{
     background-color: rgb(14, 119, 54);
