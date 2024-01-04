@@ -7,9 +7,7 @@
 // MAIOR QUE 60  ANOS "IDOSO"
 
 let idade = -2
-if (isNaN(idade)){
-    console.log("digite somente numero")
-}
+
 if (idade < 2 && idade >= 0){
     console.log("bebe")
 }else if(idade < 12){
