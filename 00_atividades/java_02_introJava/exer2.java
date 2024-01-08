@@ -12,7 +12,7 @@ public class exer2 {
         System.out.print("digite um numero:");
         Scanner etd = new Scanner(System.in);
         int numero = etd.nextInt();
-            
+        etd.close();
         System.out.print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
         System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
         

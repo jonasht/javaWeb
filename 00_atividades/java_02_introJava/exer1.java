@@ -24,7 +24,10 @@ public class exer1 {
         System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
         System.out.print("\t1-adição\n\t2-subtração\n\t3-multiplicação\n\t4-divisão\nop:");
         int opcao = etdop.nextInt();
-
+        etd1.close();
+        etd2.close();
+        etdop.close();
+        
         System.out.print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
 
         switch (opcao) {
