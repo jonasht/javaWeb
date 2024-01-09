@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteador de Números</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="centro">
+            <div class="left">
+
+                <label class="lb_min" for="input_min">Mínimo:</label>
+                
+                <input class="input_min" type="text" id="input_min">
+            </div>
+            <div class="right">
+
+                <label class="lb_max" for="input_max">Máximo:</label>
+                <input class="input_max" type="text" id="input_max">
+            </div>
+        </div>
+
+        <p id="p_numero"></p>
+
+        <button class="bt" id="sort" onclick="sortearNumero()">Sortear</button>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
