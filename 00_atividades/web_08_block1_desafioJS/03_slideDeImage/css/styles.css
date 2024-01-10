@@ -33,7 +33,7 @@ img {
     /* margin-bottom: 500px; */
 }
 button {
-    background-color: green;
+    background-color: rgb(14, 119, 54);
     height: 45px;
     font-weight: bold;
     border: none;
@@ -52,4 +52,16 @@ button {
     border-bottom-right-radius: 25px;
     border-top-right-radius: 25px;
     
+}
+button:hover {
+    box-shadow: 15px 15px 45px -5px rgb(14, 119, 54);
+
+    transition: box-shadow .5s;
+
+}
+.container {
+    box-shadow: 15px 15px 45px -5px rgba(0, 0, 255, 0.932);
+
+    transition: box-shadow .5s;
+
 }
