@@ -1,0 +1,91 @@
+body {
+
+    font-family: Arial, sans-serif;
+    /* margin: 200px; */
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  
+  label {
+    font-weight: bolder;
+    font-size: large;
+    text-align: center;
+    padding-right: 10px;
+  }
+  
+  input {
+    width: 100px;
+    border: none;
+    height: 30px;
+    text-align: center;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+    
+  }
+  
+  .container {
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    /* padding: 40px; */
+    width: 300px;
+    height: 200px;
+    border-radius: 25px;
+    gap: 20px;
+    
+    
+  }
+  
+.d1 {
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+
+}
+.d2 {
+/* background-color: pink; */
+display: flex;
+justify-content: center;
+}
+
+.d3 {
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+}
+
+.divc {
+background-color: rgb(228, 3, 3);
+border-top-left-radius: 25px;
+border-bottom-left-radius: 25px;
+height: 32px;
+width: 30px;
+
+}
+
+.divf {
+background-color: rgb(17, 17, 17);
+border-top-left-radius: 25px;
+border-bottom-left-radius: 25px;
+height: 32px;
+width: 30px;
+
+
+}
+
+
+.divk {
+  background-color: rgb(17, 17, 17);
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  height: 32px;
+  width: 30px;
+
+
+}
