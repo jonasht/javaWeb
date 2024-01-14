@@ -25,11 +25,9 @@ function lerNumero(i) {
       if (numeros.length < 4) {
         lerNumero(numeros.length)
       } else {
-        // Calcula a média dos números
         const soma = numeros.reduce((acc, num) => acc + num, 0)
         const media = soma / numeros.length
 
-        // Exibe a média no console
         limpar()
         printEfeite()
         console.log(`media: ${media}`)
