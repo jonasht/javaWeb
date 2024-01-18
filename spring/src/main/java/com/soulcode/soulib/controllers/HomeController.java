@@ -1,4 +1,5 @@
-package com.soulcode.soulib.controllers;
+package main.java.com.soulcode.soulib.controllers;
+
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
